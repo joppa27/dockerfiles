@@ -1,0 +1,1 @@
+PyCharm-4.5.4, debian wheezy, openjdk-7-jre [![](https://badge.imagelayers.io/kongkoro/pycharm:latest.svg)](https://imagelayers.io/?images=kongkoro/pycharm:latest 'Get your own badge on imagelayers.io')
