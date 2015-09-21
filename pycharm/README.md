@@ -23,5 +23,5 @@ If you just want to try out the container and aren't worried about losing your s
 ``` docker run -it -v /tmp/.X11-unix/:/tmp/.X11-unix/ -e DISPLAY=$DISPLAY --rm kongkoro/pycharm ```  
 
 #### References
-https://blog.jessfraz.com/post/docker-containers-on-the-desktop/  
-http://www.developer.com/design/a-guide-to-docker-image-optimization.html
+* https://blog.jessfraz.com/post/docker-containers-on-the-desktop/  
+* http://www.developer.com/design/a-guide-to-docker-image-optimization.html
