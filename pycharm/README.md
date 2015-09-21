@@ -18,7 +18,6 @@ To get the image, you have two options, you can build it or you can pull it from
 ### Build
 download the kongkoro/pycharm Dockerfile, and navigate to that directory and run the following command:  
 ``` docker build -t kongkoro/pycharm . ```
-
 ### Run
 If you just want to try out the container and aren't worried about losing your settings/config/code try this:  
 ``` docker run -it -v /tmp/.X11-unix/:/tmp/.X11-unix/ -e DISPLAY=$DISPLAY --rm kongkoro/pycharm ```  
@@ -26,6 +25,3 @@ If you just want to try out the container and aren't worried about losing your s
 #### References
 https://blog.jessfraz.com/post/docker-containers-on-the-desktop/  
 http://www.developer.com/design/a-guide-to-docker-image-optimization.html
-
-
- 
