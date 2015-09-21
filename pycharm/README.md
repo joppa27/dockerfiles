@@ -6,7 +6,6 @@
 
 # PyCharm Community Edition
 This container is only possible because of how easy it as to mount your `X11` socket to a container.  
-see this blog post for more details: https://blog.jessfraz.com/post/docker-containers-on-the-desktop/.  
 I decided to try my hand at making a pycharm container for my ubuntu dev box, here goes nothing!  
 ## xhost permission
 docker is going to need permission to mount the `X11` socket. The following command should do the trick:  
@@ -23,6 +22,10 @@ download the kongkoro/pycharm Dockerfile, and navigate to that directory and run
 ### Run
 If you just want to try out the container and aren't worried about losing your settings/config/code try this:  
 ``` docker run -it -v /tmp/.X11-unix/:/tmp/.X11-unix/ -e DISPLAY=$DISPLAY --rm kongkoro/pycharm ```  
+
+#### References
+https://blog.jessfraz.com/post/docker-containers-on-the-desktop/  
+http://www.developer.com/design/a-guide-to-docker-image-optimization.html
 
 
  
