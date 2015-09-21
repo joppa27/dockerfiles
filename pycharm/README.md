@@ -5,7 +5,7 @@
 * python 2.7.3
 
 # PyCharm Community Edition
-This container is only possible because of how easy it as to mount your `X11` socket to a container.  
+This container is only possible because of how easy it is to mount your `X11` socket to a container.  
 I decided to try my hand at making a pycharm container for my ubuntu dev box, here goes nothing!  
 ## xhost permission
 docker is going to need permission to mount the `X11` socket. The following command should do the trick:  
