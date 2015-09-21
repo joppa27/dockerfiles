@@ -1,4 +1,8 @@
 [![](https://badge.imagelayers.io/kongkoro/pycharm:latest.svg)](https://imagelayers.io/?images=kongkoro/pycharm:latest 'Get your own badge on imagelayers.io')
+* PyCharm Community Edition 4.5.4
+* openjdk-7-jre
+* git 1.7.10.4
+* python 2.7.3
 
 # PyCharm Community Edition
 This container is only possible because of how easy it as to mount your `X11` socket to a container.  
