@@ -1,8 +1,9 @@
-[![](https://badge.imagelayers.io/kongkoro/pycharm:latest.svg)](https://imagelayers.io/?images=kongkoro/pycharm:latest 'Get your own badge on imagelayers.io')
+debian [![](https://badge.imagelayers.io/kongkoro/pycharm:latest.svg)](https://imagelayers.io/?images=kongkoro/pycharm:latest 'Get your own badge on imagelayers.io')  
+centos7 [![](https://badge.imagelayers.io/kongkoro/pycharm:centos7.svg)](https://imagelayers.io/?images=kongkoro/pycharm:centos7 'Get your own badge on imagelayers.io')
 * PyCharm Community Edition 4.5.4
-* openjdk-7-jre
-* git 1.7.10.4
-* python 2.7.3
+* openjdk
+* git
+* python 2.7
 
 # PyCharm Community Edition
 This container is only possible because of how easy it is to mount your `X11` socket to a container.  
