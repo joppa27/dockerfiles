@@ -21,20 +21,10 @@ download the kongkoro/pycharm Dockerfile, and navigate to that directory and run
 ### Run
 If you just want to try out the container do this:
 
-    docker run -it \  
-    -v /tmp/.X11-unix/:/tmp/.X11-unix/ \  
-    -e DISPLAY=$DISPLAY \  
-    --rm \  
-    kongkoro/pycharm  
+    docker run -it -v /tmp/.X11-unix/:/tmp/.X11-unix/ -e DISPLAY=$DISPLAY --rm kongkoro/pycharm  
 For a little more persistence try this:
 
-    docker run -it \  
-    -v /tmp/.X11-unix/:/tmp/.X11-unix/ \
-    -v ~/PycharmProjects:/root/PycharmProjects \  
-    -v ~/.PyCharm40:/root/.PyCharm40 \  
-    -e DISPLAY=$DISPLAY \  
-    --rm \  
-    kongkoro/pycharm
+    docker run -it -v /tmp/.X11-unix/:/tmp/.X11-unix/ -v ~/PycharmProjects:/root/PycharmProjects -v ~/.PyCharm40:/root/.PyCharm40 -e DISPLAY=$DISPLAY --rm kongkoro/pycharm
 #### References
 * https://blog.jessfraz.com/post/docker-containers-on-the-desktop/  
 * [http://www.developer.com/design/a-guide-to-docker-image-optimization](http://www.developer.com/design/a-guide-to-docker-image-optimization.html)
