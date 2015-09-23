@@ -1,5 +1,5 @@
 debian [![](https://badge.imagelayers.io/kongkoro/pycharm:latest.svg)](https://imagelayers.io/?images=kongkoro/pycharm:latest 'Get your own badge on imagelayers.io')  
-centos7 [![](https://badge.imagelayers.io/kongkoro/pycharm:centos7.svg)](https://imagelayers.io/?images=kongkoro/pycharm:centos7 'Get your own badge on imagelayers.io')
+centos [![](https://badge.imagelayers.io/kongkoro/pycharm:centos7.svg)](https://imagelayers.io/?images=kongkoro/pycharm:centos7 'Get your own badge on imagelayers.io')
 * PyCharm Community Edition 4.5.4
 * openjdk
 * git
