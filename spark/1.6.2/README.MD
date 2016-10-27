@@ -1,4 +1,4 @@
-# simple spark container based on the java 8 container
+# simple spark container
 
 to start a master node just run
 
