@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Idi Eradiri ieradiri@gmail.com
+MAINTAINER Idi Eradiri
 # docker run -it -v /tmp/.X11-unix/:/tmp/.X11-unix/ -e DISPLAY=$DISPLAY --rm kongkoro/pycharm
 
 ENV PYCHARM_HOME=/etc/pycharm
